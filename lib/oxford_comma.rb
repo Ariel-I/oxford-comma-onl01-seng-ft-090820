@@ -1,3 +1,3 @@
-def oxford_comma(array=[kiwi, durian])
-  [kiwi, durian].join
+def oxford_comma(array="kiwi,banana,apple")
+  "kiwi, banana, apple".split(",")
 end
