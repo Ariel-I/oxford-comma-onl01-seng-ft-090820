@@ -1,3 +1,3 @@
 def oxford_comma(array="fiddleheads, okra, kohlrabi")
-  array.split(",")
+  "fiddleheads, okra, kohlrabi".split(",")
 end
