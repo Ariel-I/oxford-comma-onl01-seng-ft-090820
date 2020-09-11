@@ -1,6 +1,6 @@
+array=["kiwi", "durian", "mango"]
 
-
-def oxford_comma(array=["kiwi", "durian", "mango"])
+def oxford_comma(array)
   if array.length == 2 
     array[-2] << " and "
     arra.join
@@ -11,6 +11,7 @@ def oxford_comma(array=["kiwi", "durian", "mango"])
     array.join (" , ")
   end
 end
+
 
 
 
