@@ -9,6 +9,6 @@ def oxford_comma(array=["kiwi", "durian", "mango"])
     array[-1].prepend "and"
     array.join (" , ")
   end
-
+end
 
 
